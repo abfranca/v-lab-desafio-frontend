@@ -1,0 +1,50 @@
+<mat-toolbar [ngClass]="{'mtP': isPhonePortrait}">
+    <div class="mtDivC">
+        <div class="mtDiv">
+            <img class='mtImg' [ngClass]="{'mtImgP': isPhonePortrait}" src="../../assets/ui-image.png">
+            <div class="mtDivR">
+                <button mat-icon-button class="mtButton">
+                    <mat-icon>menu</mat-icon>
+                </button>
+                <div>
+                    <h1 class="title" [ngClass]="{'titleP': isPhonePortrait}">{{title}}</h1>
+                    <h2 class="subTitle" *ngIf="!isPhonePortrait">{{subTitle}}</h2>
+                </div>
+            </div>
+        </div>
+        <div>
+            <div class="divSearchP" *ngIf="isPhonePortrait">
+                <button mat-icon-button class="mtButtonS">
+                    <mat-icon>more_vert</mat-icon>
+                </button>
+                <div class="separatorV"></div>
+                <button mat-icon-button class="mtButtonS">
+                    <mat-icon>search</mat-icon>
+                </button>
+            </div>
+            <div *ngIf="!isPhonePortrait">
+                <a class="link" href="https://www.google.com/search?q=escolas+pelo+mundo" target="_blank">Link de acesso
+                    1</a>
+                <span class="spacer"></span>
+                <a class="link" href="https://www.google.com/search?q=escolas+pelo+mundo" target="_blank">Link de acesso
+                    2</a>
+                <span class="spacer"></span>
+                <a class="link" href="https://www.google.com/search?q=escolas+pelo+mundo" target="_blank">Link de acesso
+                    3</a>
+                <span class="spacer"></span>
+                <a class="link" href="https://www.google.com/search?q=escolas+pelo+mundo" target="_blank">Link de acesso
+                    4</a>
+            </div>
+            <div class="divSearch" *ngIf="!isPhonePortrait">
+                <input class="searchBox" id="searchBox" [(ngModel)]="search" placeholder="O que você procura?">
+                <button mat-icon-button class="mtButtonS">
+                    <mat-icon>search</mat-icon>
+                </button>
+            </div>
+        </div>
+    </div>
+</mat-toolbar>
+<div>
+    <a routerLink="/logado">usuário logado</a>
+</div>
+<div class="separator"></div>

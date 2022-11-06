@@ -1,0 +1,33 @@
+<div class="pageContainer" [ngClass]="{'pageContainerP': isPhonePortrait}">
+    <h1 class="title" [ngClass]="{'titleP': isPhonePortrait}">{{title}}</h1>
+    <div class="main" [ngClass]="{'mainP': isPhonePortrait}">
+        <img *ngIf="!isPhonePortrait" class='mainImg' src="../../assets/ui-image2.png">
+        <mat-card class="card" [ngClass]="{'cardP': isPhonePortrait}">
+            <h2 class="cardTitle" [ngClass]="{'cardTitleP': isPhonePortrait}">Identifique-se com:</h2>
+            <label class="label">Nome de Usuário</label>
+            <div class="divNome" [ngClass]="{'divNomeP': isPhonePortrait}">
+                <mat-icon class="icon">person</mat-icon>
+                <input class="inputBox" [ngClass]="{'inputBoxP': isPhonePortrait}" id="inputBox" [(ngModel)]="nome"
+                    placeholder="Digite o seu nome de usuário">
+            </div>
+            <label class="label">Senha</label>
+            <div class="divSenha" [ngClass]="{'divSenhaP': isPhonePortrait}">
+                <mat-icon class="icon">vpn_key</mat-icon>
+                <input type="password" class="inputBox" [ngClass]="{'inputBoxP': isPhonePortrait}" id="inputBox"
+                    [(ngModel)]="senha" placeholder="Digite a sua senha atual">
+                <button mat-icon-button class="visButton">
+                    <mat-icon>remove_red_eye</mat-icon>
+                </button>
+            </div>
+            <a class="link" href="https://www.google.com/search?q=escolas+pelo+mundo" target="_blank">Esqueci minha
+                senha</a>
+            <div class="divButtons" [ngClass]="{'divButtonsP': isPhonePortrait}">
+                <button mat-stroked-button class="buttonCadastro" [ngClass]="{'buttonCadastroP': isPhonePortrait}"
+                    routerLink="/cadastro">Cadastre-se</button>
+                <div class="separator" [ngClass]="{'separatorP': isPhonePortrait}"></div>
+                <button mat-stroked-button class="buttonContinuar" [ngClass]="{'buttonContinuarP': isPhonePortrait}"
+                    (click)="logar()" routerLink="/logado">Continuar</button>
+            </div>
+        </mat-card>
+    </div>
+</div>

@@ -1,0 +1,250 @@
+.pageContainer {
+    padding-top: 9.62px;
+    padding-left: 40px;
+    padding-bottom: 120px;
+    padding-right: 52.04px;
+}
+
+.pageContainerP {
+    padding-top: 26px;
+    padding-left: 8px;
+    padding-bottom: 26px;
+    padding-right: 12px;
+}
+
+.title {
+    font-family: 'Rawline';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 41.8px;
+    line-height: 58px;
+    color: #000000;
+}
+
+.titleP {
+    font-weight: 500;
+    font-size: 29.03px;
+    line-height: 40px;
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 48px;
+}
+
+.mainP {
+    margin-top: 18px;
+}
+
+.mainImg {
+    width: 588px;
+    height: 465px;
+}
+
+.card {
+    padding: 50px 30px;
+}
+
+.cardP {
+    padding: 50px 20px;
+    flex: 1;
+}
+
+.cardTitle {
+    display: flex;
+    font-family: 'Rawline';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20.16px;
+    line-height: 28px;
+    margin-bottom: 45px;
+    color: #000000;
+    justify-content: center;
+}
+
+.cardTitleP {
+    font-size: 16.8px;
+    line-height: 23px;
+    margin-bottom: 35px;
+}
+
+.label {
+    font-family: 'Rawline';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+    color: #000000;
+}
+
+.divNome {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 4px 4px 4px 16px;
+    gap: 8px;
+    border: 1px solid #888888;
+    border-radius: 4px;
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+    margin-bottom: 35px;
+    height: 40px;
+}
+
+.divNomeP {
+    margin-bottom: 25px;
+    justify-content: center;
+    padding: 0px 5px 0px 16px;
+    gap: 6px;
+    height: 32px;
+}
+
+.icon {
+    width: 20px;
+    height: 16px;
+    color: #888888;
+}
+
+.inputBox {
+    font-family: 'Rawline';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+    border: none;
+    flex: 1;
+}
+
+.inputBoxP {
+    font-size: 10px;
+    line-height: 14px;
+}
+
+.divSenha {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 4px 4px 4px 16px;
+    gap: 8px;
+    border: 1px solid #888888;
+    border-radius: 4px;
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+    height: 40px;
+    margin-bottom: 5px;
+}
+
+.divSenhaP {
+    justify-content: center;
+    padding: 0px 5px 0px 16px;
+    gap: 6px;
+    height: 32px;
+}
+
+.visButton {
+    cursor: pointer;
+    width: 32px;
+    height: 32px;
+    border: none;
+    background-color: transparent;
+    color: #1351B4;
+}
+
+.link {
+    box-sizing: border-box;
+    font-family: 'Rawline';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #1351B4;
+}
+
+.divButtons {
+    display: flex;
+    flex-direction: row;
+    margin-top: 5px;
+    padding-top: 50px;
+    padding-left: 6.29px;
+    padding-right: 6.29px;
+}
+
+.divButtonsP {
+    display: flex;
+    flex-direction: row;
+    margin-top: 5px;
+    padding-top: 40px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.buttonCadastro {
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 24px;
+    gap: 8px;
+    width: 168.69px;
+    height: 39px;
+    background: #FFFFFF;
+    border: 1px solid #1351B4;
+    border-radius: 20px;
+    font-family: 'Rawline';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+    color: #1351B4;
+}
+
+.buttonCadastroP {
+    padding: 8px 14px;
+    width: 105px;
+}
+
+.buttonContinuar {
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 24px;
+    gap: 8px;
+    width: 168.69px;
+    height: 39px;
+    background: #1351B4;
+    border-radius: 20px;
+    font-family: 'Rawline';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+    color: #FFFFFF;
+    border: none;
+}
+
+.buttonContinuarP {
+    padding: 8px 14px;
+    width: 105px;
+}
+
+.separator {
+    margin-left: 20px;
+}
+
+.separatorP {
+    margin-left: 18px;
+}
